@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>TechnoSpace Register</title>
+
+    <link rel="stylesheet" href="register.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="glow glow-3"></div>
+
+    <header>
+      <nav class="navbar">
+        <div class="logo">TECHNOSPACE</div>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="gallery.html">Gallery</a></li>
+
+          <li class="dropdown">
+            <a href="#">Shop +</a>
+
+            <ul class="dropdown-content">
+              <li><a href="keyboards.html">Keyboards</a></li>
+
+              <li><a href="mouse.html">Mouse</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="register.html" class="active"> Register </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="register-section">
+      <form id="registerForm" class="register-box">
+        <h1>JOIN TECHNOSPACE</h1>
+
+        <p>Create your futuristic gaming account.</p>
+
+        <label>Full Name</label>
+        <input type="text" id="fullname" />
+
+        <label>Email</label>
+        <input type="email" id="email" />
+
+        <label>Password</label>
+        <input type="password" id="password" />
+
+        <label>Confirm Password</label>
+        <input type="password" id="confirmPassword" />
+
+        <label>Gender</label>
+
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="gender" value="Male" />
+            Male
+          </label>
+
+          <label>
+            <input type="radio" name="gender" value="Female" />
+            Female
+          </label>
+        </div>
+
+        <label>Date of Birth</label>
+        <input type="date" id="dob" />
+
+        <label>Favorite Product</label>
+
+        <select id="product">
+          <option value="">Select Product</option>
+
+          <option>Mechanical Keyboard</option>
+
+          <option>Gaming Mouse</option>
+        </select>
+
+        <button type="submit">REGISTER</button>
+
+        <p id="error-message"></p>
+      </form>
+    </section>
+
+    <script src="register.js"></script>
+  </body>
+</html>
