@@ -14,7 +14,7 @@ This project was developed to strengthen frontend development skills while apply
 
 Add your GitHub Pages link here:
 
-https://rafiantoas.github.io/shopverse-ecommerce-platform/
+https://rafiantoas.github.io/technospace-ecommerce-platform/
 
 ## Features
 
