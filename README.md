@@ -10,6 +10,12 @@ The application simulates a modern online gaming store where users can explore g
 
 This project was developed to strengthen frontend development skills while applying modern UI design principles and responsive layouts.
 
+## Live Demo
+
+Add your GitHub Pages link here:
+
+https://rafiantoas.github.io/shopverse-ecommerce-platform/
+
 ## Features
 
 * Multi-Page Website Architecture
